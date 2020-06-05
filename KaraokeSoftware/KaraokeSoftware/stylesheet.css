@@ -1,0 +1,108 @@
+.button {
+	
+	-fx-background-color: darkslateblue; 
+	-fx-text-fill: white;
+	-fx-effect: dropshadow( one-pass-box , black , 8.0 , 0.0 , 2.0 , 0.0 );
+	
+}
+
+.button:hover {
+	
+	-fx-background-color: whitesmoke;
+	-fx-text-fill: black;
+	
+}
+
+.root{
+	
+	-fx-background-color: linear-gradient(to bottom, #000066 0.0%, #009999 100.0%);
+	
+}
+
+.border {
+	
+    -fx-border-color: #9980d9;
+    -fx-border-width: 2.0 ; 
+    -fx-border-style: segments(10.0, 15.0, 15.0, 15.0)  line-cap round ;
+    
+}
+
+.label {
+	
+	-fx-background-position: center;
+	-fx-font-family: Arial;
+	-fx-font-weight: bold;
+	-fx-font-size: 14.0px;
+	-fx-text-fill: white;
+	
+}
+
+/*References: https://icons8.com/icons/set/play
+ * https://icons8.com/icons/set/pause
+ * https://icons8.com/icons/set/skip
+ */
+
+.play-button{
+	
+	-fx-alignment: center ;
+	-fx-background-radius: 5.0em;
+	-fx-background-color: none; 
+	-fx-pref-width: 50.0px; 
+	-fx-pref-height: 50.0px;
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat;
+	-fx-background-image: url('Images/play.png');
+	-fx-background-size: 50.0px;
+	
+}
+
+.pause-button{
+	
+	-fx-alignment: center ;
+	-fx-background-radius: 5.0em;
+	-fx-background-color: none;
+	-fx-pref-width: 50.0px; 
+	-fx-pref-height: 50.0px;
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat;
+	-fx-background-image: url('Images/pause.png');
+	-fx-background-size: 50.0px;
+	
+}
+
+
+.skip-button{
+	
+	-fx-alignment: center ;
+	-fx-background-radius: 5.0em;
+	-fx-background-color: none;
+	-fx-pref-width: 50.0px; 
+	-fx-pref-height: 50.0px;
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat;
+	-fx-background-image: url('Images/skip.png');
+	-fx-background-size: 50.0px;
+	
+}
+
+.search-button{
+	
+	-fx-background-radius: 5.0em;
+	-fx-background-color: none;
+	-fx-pref-width: 50.0px; 
+	-fx-pref-height: 55.0px;
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat;
+	-fx-background-image: url('Images/search.png');
+	-fx-background-size: 50.0px;
+	
+}
+
+.search-output{
+	
+	-fx-font-size: 15.0px;
+	-fx-padding: 20.0 0.0 20.0 0.0;
+	
+}
+
+
